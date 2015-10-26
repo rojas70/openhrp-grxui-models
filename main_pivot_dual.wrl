@@ -763,14 +763,14 @@ momentsOfInertia [0.00052016 -0.00000169 0.00000790 -0.00000169 0.00050569 0.000
 							 ##### CAMERA ####
 						  Transform { 
 							     children Shape {
-								appearance Appearance {
-								   material Material {
-								      diffuseColor 1.0 1.0 1.0
+									appearance Appearance {
+								   		material Material {
+								     		 diffuseColor 1.0 1.0 1.0
 								   }
 								}
-								geometry Sphere {
-								   radius 0.0075
-								}
+									geometry Sphere {
+								   		radius 0.0075
+									}
 							     }
 							  }
                                                           #The position of the end-effector in the code 
@@ -833,7 +833,7 @@ momentsOfInertia [0.00052016 -0.00000169 0.00000790 -0.00000169 0.00050569 0.000
 		   jointAxis "Z"
 		   jointId    9
 		   #translation 0 0.25 0.3
-		   translation 0.0 0.150 0.355 
+		   translation 0.0 0.150 0.355
 		   rotation   1 0 0  -0.261799
 
 		   gearRatio	273
@@ -889,8 +889,7 @@ momentsOfInertia [0.00207537 0.00011276 0.00008927 0.00011276 0.00240295 -0.0000
 			 jointType "rotate"
 			 jointAxis "Y"
 			 jointId 10
-			 translation  0.0 0.0 0.0 
-                         #translation 0 0.05 0
+			 translation  0.0 0.0 0.0 #translation 0 0.05 0
 			 gearRatio	200
 			 rotorInertia	4.2e-6
 			 encoderPulse	512
@@ -944,8 +943,7 @@ momentsOfInertia [0.01541678 0.00000097 0.00000352 0.00000098 0.01471175 0.00213
 			       jointId 11
 			       jointAxis   "Y"
 
-			       translation 0 0.080 -0.250 
-                               #translation 0 0.08 -0.350
+			       translation 0 0.080 -0.250 #translation 0 0.08 -0.350
 
 			       gearRatio		200
 			       rotorInertia	1.5e-6
@@ -998,9 +996,7 @@ momentsOfInertia [0.00143966 -0.00000030 0.00000120 -0.00000030 0.00141763 -0.00
 				     jointType "rotate"
 				     jointId 12
 				     jointAxis "Z"
-
-                                     #translation    -0.02 0 -0.05
-				     translation     -0.02 0.0 0.0
+				     translation     -0.02 0.0 0.0 #translation    -0.02 0 -0.05
 				     
 				     gearRatio		100
 				     rotorInertia		3.74e-7
@@ -1052,9 +1048,7 @@ momentsOfInertia [0.00069205 0.00000003 0.00000052 0.00000003 0.00068903 -0.0000
 					   jointType "rotate"
 					   jointId 13
 					   jointAxis "Y"
-
-					   translation   0 0.0 -0.230
-                                           #translation 0 0 -0.28
+					   translation   0 0.0 -0.230  #translation 0 0 -0.28
 
 					   gearRatio	200
 					   rotorInertia	3.74e-7
@@ -1164,7 +1158,7 @@ momentsOfInertia [0.00052016 0.00000169 0.00000790 0.00000169 0.00050569 -0.0000
 							  }
 							  
 							  Inline  { url "lower_vrml97_10000_point_dual.wrl" }
-							  #inline { url "axis.wrl" }
+							  #Inline { url "axis.wrl" }
 							  #Inline { url "WR.wrl" } 
 							  #Inline { url "larm-clawL.wrl" } 
 							  #Inline { url "larm-clawR.wrl" }
